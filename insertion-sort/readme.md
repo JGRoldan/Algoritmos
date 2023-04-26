@@ -5,6 +5,6 @@
 La __complejidad__ es O( n<sup>2</sup>).  
 
 ```
-proximamente
+work in progress
 ```
 #### Pasos
