@@ -7,7 +7,7 @@ Si es afirmativo, swap. La idea es dejar los elementos mas chicos a la izquierda
 La __complejidad__ es O(n<sup>2</sup>).  
 
 ```
-arr = [8,5,7,9,1,3]
+arr = [8,5,4]
 temp = 0
 for(i = 0; i < arr.length-1; i++){
   for(j = 0; j < arr.length-i-1; j++)
@@ -17,3 +17,8 @@ for(i = 0; i < arr.length-1; i++){
         arr[j+1] = temp
 }
 ```
+#### Pasos
+1. [8,5,4]
+2. [5,8,4]
+3. [5,4,8]
+4. [4,5,8]
